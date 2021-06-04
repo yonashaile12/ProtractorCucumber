@@ -1,0 +1,85 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "first-test;01-our-first-test",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "01 Our first test",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user is able to use protractor",
+            "match": {
+              "location": "test/step_definitions/test.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "the user can type in the console \"hello, world\"",
+            "match": {
+              "location": "test/step_definitions/test.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 15000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "first-test",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "First Test",
+    "tags": [],
+    "uri": "test/features/test.feature",
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "91.0.4472.77"
+      },
+      "device": "",
+      "platform": {
+        "name": "",
+        "version": ""
+      }
+    }
+  }
+]

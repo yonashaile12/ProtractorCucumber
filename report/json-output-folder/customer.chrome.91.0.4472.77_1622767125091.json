@@ -1,0 +1,124 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "customer;01-customer-login",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "01 Customer Login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user navigates to home page",
+            "match": {
+              "location": "test/step_definitions/bank.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3277000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the user logs in as a \"Customer\"",
+            "match": {
+              "location": "test/step_definitions/bank.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1250000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "the user selects \"Harry Potter\" from dropdown",
+            "match": {
+              "location": "test/step_definitions/bank.js:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 45000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "the user clicks the login button",
+            "match": {
+              "location": "test/step_definitions/bank.js:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 167000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the customer sees the \"Harry Potter\" welcome banner",
+            "match": {
+              "location": "test/step_definitions/bank.js:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 363000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "customer",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Customer",
+    "tags": [],
+    "uri": "test/features/customer.feature",
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "91.0.4472.77"
+      },
+      "device": "",
+      "platform": {
+        "name": "",
+        "version": ""
+      }
+    }
+  }
+]

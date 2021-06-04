@@ -1,0 +1,98 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "bank-manager;01-manager-login",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "01 Manager Login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user navigates to home page",
+            "match": {
+              "location": "test/step_definitions/bank.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2809000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the user logs in as a \"Bank Manager\"",
+            "match": {
+              "location": "test/step_definitions/bank.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1253000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "the user sees manager options",
+            "match": {
+              "location": "test/step_definitions/bank.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 102000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "bank-manager",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Bank Manager",
+    "tags": [],
+    "uri": "test/features/manager.feature",
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "91.0.4472.77"
+      },
+      "device": "",
+      "platform": {
+        "name": "",
+        "version": ""
+      }
+    }
+  }
+]

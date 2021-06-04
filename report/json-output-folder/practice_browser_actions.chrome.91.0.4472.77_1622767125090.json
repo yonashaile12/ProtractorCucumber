@@ -1,0 +1,1326 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "practice-browser-actions;01-verify-the-webpage",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "01 Verify the webpage",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the user navigates to \"http://www.protractortest.org/\"",
+            "match": {
+              "location": "test/step_definitions/browser.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2267000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "the user verifies the url",
+            "match": {
+              "location": "test/step_definitions/browser.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 50000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the user waits for 5 seconds",
+            "match": {
+              "location": "test/step_definitions/browser.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2006000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "the user reads the title \"Protractor - end-to-end testing for AngularJS\"",
+            "match": {
+              "location": "test/step_definitions/browser.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "practice-browser-actions;02-navigate-the-application",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "02 Navigate the application",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "the user navigates to \"http://www.protractortest.org/\"",
+            "match": {
+              "location": "test/step_definitions/browser.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1188000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "the user navigates to \"http://www.protractortest.org/#/api\"",
+            "match": {
+              "location": "test/step_definitions/browser.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1089000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "the user navigates back to main page",
+            "match": {
+              "location": "test/step_definitions/browser.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 140000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "the user navigates forward",
+            "match": {
+              "location": "test/step_definitions/browser.js:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1323000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "the user refreshes the page",
+            "match": {
+              "location": "test/step_definitions/browser.js:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1186000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "the user closes the browser",
+            "match": {
+              "location": "test/step_definitions/browser.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "practice-browser-actions;04-mouse-hover-over",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "04 Mouse Hover Over",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 21,
+            "name": "the user navigates to \"http://the-internet.herokuapp.com/hovers\"",
+            "match": {
+              "location": "test/step_definitions/browser.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1993000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "the user reads the title as \"Hovers\"",
+            "match": {
+              "location": "test/step_definitions/browser.js:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2113000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "the user can hover over the images",
+            "match": {
+              "location": "test/step_definitions/browser.js:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8612000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 14000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "practice-browser-actions;05-mouse-drag-and-drop",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "05 Mouse Drag and Drop",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 26,
+            "name": "the user navigates to \"http://the-internet.herokuapp.com/drag_and_drop\"",
+            "match": {
+              "location": "test/step_definitions/browser.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1191000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 27,
+            "name": "the user reads the title as \"Drag and Drop\"",
+            "match": {
+              "location": "test/step_definitions/browser.js:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2075000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "the user can drag and drop the squares",
+            "match": {
+              "location": "test/step_definitions/browser.js:66"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4763000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 12000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "practice-browser-actions;06-mouse-click",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "06 Mouse Click",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 31,
+            "name": "the user navigates to \"http://the-internet.herokuapp.com/javascript_alerts\"",
+            "match": {
+              "location": "test/step_definitions/browser.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1314000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 32,
+            "name": "the user reads the title as \"JavaScript Alerts\"",
+            "match": {
+              "location": "test/step_definitions/browser.js:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2074000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 33,
+            "name": "the user does a mouse click on \"Confirm\"",
+            "match": {
+              "location": "test/step_definitions/browser.js:75"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2489000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 34,
+            "name": "the user accepts the alert",
+            "match": {
+              "location": "test/step_definitions/browser.js:80"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2127000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression",
+            "line": 1
+          },
+          {
+            "name": "@test",
+            "line": 29
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "practice-browser-actions;07-scroll-to-element",
+        "keyword": "Scenario",
+        "line": 36,
+        "name": "07 Scroll to Element",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 37,
+            "name": "the user navigates to \"https://www.rememberthemilk.com\"",
+            "match": {
+              "location": "test/step_definitions/browser.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2764000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 38,
+            "name": "the user scrolls to the footer icon",
+            "match": {
+              "location": "test/step_definitions/browser.js:86"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3416000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "practice-browser-actions;08-scroll-up-and-down",
+        "keyword": "Scenario",
+        "line": 40,
+        "name": "08 Scroll Up and Down",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 41,
+            "name": "the user navigates to \"https://www.rememberthemilk.com\"",
+            "match": {
+              "location": "test/step_definitions/browser.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1161000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 42,
+            "name": "the user scrolls down to the bottom of the Page",
+            "match": {
+              "location": "test/step_definitions/browser.js:93"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2039000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 43,
+            "name": "the user scrolls up to the top of the page",
+            "match": {
+              "location": "test/step_definitions/browser.js:99"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2058000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "practice-browser-actions;09-javascript-click",
+        "keyword": "Scenario",
+        "line": 45,
+        "name": "09 JavaScript Click",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 46,
+            "name": "the user navigates to \"https://www.rememberthemilk.com\"",
+            "match": {
+              "location": "test/step_definitions/browser.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1199000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 47,
+            "name": "the user uses JavaScript Click",
+            "match": {
+              "location": "test/step_definitions/browser.js:105"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2836000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "practice-browser-actions;10-wait-for-visibility-of-element",
+        "keyword": "Scenario",
+        "line": 49,
+        "name": "10 Wait for Visibility of Element",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 50,
+            "name": "the user navigates to \"https://www.overleaf.com\"",
+            "match": {
+              "location": "test/step_definitions/browser.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3220000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 51,
+            "name": "the user clicks on the \"Features & Benefits\" dropdown",
+            "match": {
+              "location": "test/step_definitions/browser.js:110"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2334000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 52,
+            "name": "the user selects the option \"For Writing\"",
+            "match": {
+              "location": "test/step_definitions/browser.js:118"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3707000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 12000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "practice-browser-actions;11-wait-for-presence-of-element",
+        "keyword": "Scenario",
+        "line": 54,
+        "name": "11 Wait for Presence of Element",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 55,
+            "name": "the user navigates to \"https://www.overleaf.com\"",
+            "match": {
+              "location": "test/step_definitions/browser.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1235000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 56,
+            "name": "the user clicks on the \"Help\" dropdown",
+            "match": {
+              "location": "test/step_definitions/browser.js:110"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2075000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 57,
+            "name": "the user selects the option \"Contact Us\"",
+            "match": {
+              "location": "test/step_definitions/browser.js:118"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2484000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 58,
+            "name": "the user will see the contact us modal",
+            "match": {
+              "location": "test/step_definitions/browser.js:131"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 66000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "practice-browser-actions;12-wait-for-invisibility-of-element",
+        "keyword": "Scenario",
+        "line": 60,
+        "name": "12 Wait for Invisibility of Element",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 61,
+            "name": "the user navigates to \"https://www.overleaf.com\"",
+            "match": {
+              "location": "test/step_definitions/browser.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1231000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 62,
+            "name": "the user clicks on the \"Help\" dropdown",
+            "match": {
+              "location": "test/step_definitions/browser.js:110"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2087000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 63,
+            "name": "the user will not see the \"For Writing\" option",
+            "match": {
+              "location": "test/step_definitions/browser.js:137"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 147000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 64,
+            "name": "the user selects the option \"Contact Us\"",
+            "match": {
+              "location": "test/step_definitions/browser.js:118"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2133000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression",
+            "line": 1
+          },
+          {
+            "name": "@test",
+            "line": 59
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "practice-browser-actions;13-wait-for-staleness-of-element",
+        "keyword": "Scenario",
+        "line": 66,
+        "name": "13 Wait for Staleness of Element",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 67,
+            "name": "the user navigates to \"https://www.utest.com/\"",
+            "match": {
+              "location": "test/step_definitions/browser.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8446000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 68,
+            "name": "the user clicks on \"Projects\" in the navigation bar",
+            "match": {
+              "location": "test/step_definitions/browser.js:143"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2749000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 69,
+            "name": "the user selects \"Android & iOS\" from the OS dropdown",
+            "match": {
+              "location": "test/step_definitions/browser.js:148"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2225000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 70,
+            "name": "the user sees the available projects",
+            "match": {
+              "location": "test/step_definitions/browser.js:154"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 191000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "practice-browser-actions;14-windows",
+        "keyword": "Scenario",
+        "line": 72,
+        "name": "14 Windows",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 73,
+            "name": "the user navigates to \"http://the-internet.herokuapp.com/windows\"",
+            "match": {
+              "location": "test/step_definitions/browser.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1741000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 74,
+            "name": "the user reads the title as \"Opening a new window\"",
+            "match": {
+              "location": "test/step_definitions/browser.js:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2138000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 75,
+            "name": "the user clicks on \"Click Here\" link",
+            "match": {
+              "location": "test/step_definitions/browser.js:162"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 269000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 76,
+            "name": "the user reads the new window",
+            "match": {
+              "location": "test/step_definitions/browser.js:166"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2227000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 77,
+            "name": "the user goes back to the old window",
+            "match": {
+              "location": "test/step_definitions/browser.js:179"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2166000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 12000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "practice-browser-actions;15-iframe",
+        "keyword": "Scenario",
+        "line": 79,
+        "name": "15 IFrame",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 80,
+            "name": "the user navigates to \"http://the-internet.herokuapp.com/iframe\"",
+            "match": {
+              "location": "test/step_definitions/browser.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4096000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 81,
+            "name": "the user switches to the iframe",
+            "match": {
+              "location": "test/step_definitions/browser.js:187"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2963000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 82,
+            "name": "the user exits the iframe",
+            "match": {
+              "location": "test/step_definitions/browser.js:196"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 83,
+            "name": "the user reads the title as \"An iFrame containing the TinyMCE WYSIWYG Editor\"",
+            "match": {
+              "location": "test/step_definitions/browser.js:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2171000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 12000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "practice-browser-actions;16-nested-frames",
+        "keyword": "Scenario",
+        "line": 85,
+        "name": "16 Nested Frames",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 86,
+            "name": "the user navigates to \"http://the-internet.herokuapp.com/nested_frames\"",
+            "match": {
+              "location": "test/step_definitions/browser.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1894000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 87,
+            "name": "the user verifies the text in the middle frame",
+            "match": {
+              "location": "test/step_definitions/browser.js:200"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 149000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "practice-browser-actions",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Practice Browser Actions",
+    "tags": [
+      {
+        "name": "@Regression",
+        "line": 1
+      }
+    ],
+    "uri": "test/features/browser.feature",
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "91.0.4472.77"
+      },
+      "device": "",
+      "platform": {
+        "name": "",
+        "version": ""
+      }
+    }
+  }
+]

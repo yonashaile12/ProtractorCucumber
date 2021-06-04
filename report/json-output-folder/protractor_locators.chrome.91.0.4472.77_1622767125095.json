@@ -1,0 +1,1085 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "protractor-locators;01-by-button-text",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "01 By Button Text",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user navigates to \"https://www.facebook.com/\"",
+            "match": {
+              "location": "test/step_definitions/browser.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2655000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "the user clicks on the button \"Log In\"",
+            "match": {
+              "location": "test/step_definitions/locator.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3796000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 12000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "protractor-locators;02-by-partial-button-text",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "02 By Partial Button Text",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "the user navigates to \"https://www.netflix.com\"",
+            "match": {
+              "location": "test/step_definitions/browser.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4194000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the user clicks on the button that contains \"Started\"",
+            "match": {
+              "location": "test/step_definitions/locator.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2385000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 12000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "protractor-locators;03-by-css-containing-text",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "03 By CSS Containing Text",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "the user navigates to \"https://www.netflix.com\"",
+            "match": {
+              "location": "test/step_definitions/browser.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2491000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "the user clicks on the \"Sign In\" button",
+            "match": {
+              "location": "test/step_definitions/locator.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "the user verifies the url",
+            "match": {
+              "location": "test/step_definitions/browser.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 40000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "protractor-locators;04-by-model",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "04 By Model",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "the user navigates to \"http://juliemr.github.io/protractor-demo/\"",
+            "match": {
+              "location": "test/step_definitions/browser.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1926000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "the user enters \"8\" and \"4\" in the calculator",
+            "match": {
+              "location": "test/step_definitions/locator.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1358000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "the user clicks on \"Go!\"",
+            "match": {
+              "location": "test/step_definitions/locator.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1253000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 12000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "protractor-locators;05-by-binding-and-by-exact-binding",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "05 By Binding and By Exact Binding",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "the user navigates to \"http://juliemr.github.io/protractor-demo/\"",
+            "match": {
+              "location": "test/step_definitions/browser.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1162000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "the user enters \"9\" and \"3\" in the calculator",
+            "match": {
+              "location": "test/step_definitions/locator.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1135000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "the user clicks on \"Go!\"",
+            "match": {
+              "location": "test/step_definitions/locator.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1070000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "the user sees the result",
+            "match": {
+              "location": "test/step_definitions/locator.js:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6067000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 14000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "protractor-locators;06-by-options-for-dropdowns-and-element-all-functions",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "06 By Options For Dropdowns and Element All Functions",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 28,
+            "name": "the user navigates to \"http://juliemr.github.io/protractor-demo/\"",
+            "match": {
+              "location": "test/step_definitions/browser.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1086000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 29,
+            "name": "the user enters \"7\" and \"5\" in the calculator",
+            "match": {
+              "location": "test/step_definitions/locator.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1135000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "the user selects \"SUBTRACTION\"",
+            "match": {
+              "location": "test/step_definitions/locator.js:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2153000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "the user clicks on \"Go!\"",
+            "match": {
+              "location": "test/step_definitions/locator.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1077000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "the user sees the result",
+            "match": {
+              "location": "test/step_definitions/locator.js:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6067000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "protractor-locators;07-by-repeater-and-by-exact-repeater",
+        "keyword": "Scenario",
+        "line": 34,
+        "name": "07 By Repeater and By Exact Repeater",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 35,
+            "name": "the user navigates to \"http://juliemr.github.io/protractor-demo/\"",
+            "match": {
+              "location": "test/step_definitions/browser.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1073000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 36,
+            "name": "the user enters \"7\" and \"5\" in the calculator",
+            "match": {
+              "location": "test/step_definitions/locator.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1132000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 37,
+            "name": "the user selects \"ADDITION\"",
+            "match": {
+              "location": "test/step_definitions/locator.js:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2124000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 38,
+            "name": "the user clicks on \"Go!\"",
+            "match": {
+              "location": "test/step_definitions/locator.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1074000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 39,
+            "name": "the user enters \"9\" and \"3\" in the calculator",
+            "match": {
+              "location": "test/step_definitions/locator.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1110000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 40,
+            "name": "the user selects \"DIVISION\"",
+            "match": {
+              "location": "test/step_definitions/locator.js:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2152000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 41,
+            "name": "the user clicks on \"Go!\"",
+            "match": {
+              "location": "test/step_definitions/locator.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1079000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 42,
+            "name": "the user enters \"10\" and \"4\" in the calculator",
+            "match": {
+              "location": "test/step_definitions/locator.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1112000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 43,
+            "name": "the user selects \"MODULO\"",
+            "match": {
+              "location": "test/step_definitions/locator.js:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2113000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 44,
+            "name": "the user clicks on \"Go!\"",
+            "match": {
+              "location": "test/step_definitions/locator.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1055000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 45,
+            "name": "the user enters \"6\" and \"2\" in the calculator",
+            "match": {
+              "location": "test/step_definitions/locator.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1111000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 46,
+            "name": "the user selects \"MULTIPLICATION\"",
+            "match": {
+              "location": "test/step_definitions/locator.js:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2112000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 47,
+            "name": "the user clicks on \"Go!\"",
+            "match": {
+              "location": "test/step_definitions/locator.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1057000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 48,
+            "name": "the user enters \"18\" and \"15\" in the calculator",
+            "match": {
+              "location": "test/step_definitions/locator.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1100000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 49,
+            "name": "the user selects \"SUBTRACTION\"",
+            "match": {
+              "location": "test/step_definitions/locator.js:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2109000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 50,
+            "name": "the user clicks on \"Go!\"",
+            "match": {
+              "location": "test/step_definitions/locator.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1073000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 51,
+            "name": "the user sees the latest result on the table",
+            "match": {
+              "location": "test/step_definitions/locator.js:64"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5249000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "protractor-locators;08-by-custom-locator",
+        "keyword": "Scenario",
+        "line": 53,
+        "name": "08 By Custom Locator",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 54,
+            "name": "the user navigates to \"http://juliemr.github.io/protractor-demo/\"",
+            "match": {
+              "location": "test/step_definitions/browser.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1111000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 55,
+            "name": "the user enters \"7\" and \"5\" in the calculator",
+            "match": {
+              "location": "test/step_definitions/locator.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1134000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 56,
+            "name": "the user selects \"MODULO\"",
+            "match": {
+              "location": "test/step_definitions/locator.js:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2160000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 57,
+            "name": "the user clicks on \"Go!\" through custom locator",
+            "match": {
+              "location": "test/step_definitions/locator.js:84"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 36000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 58,
+            "name": "the user sees the result",
+            "match": {
+              "location": "test/step_definitions/locator.js:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6058000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "protractor-locators;09-protractor-keys",
+        "keyword": "Scenario",
+        "line": 60,
+        "name": "09 Protractor Keys",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 61,
+            "name": "the user navigates to \"https://www.google.com\"",
+            "match": {
+              "location": "test/step_definitions/browser.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2960000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 62,
+            "name": "I type \"what is the time in DC\"",
+            "match": {
+              "location": "test/step_definitions/locator.js:100"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2676000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 63,
+            "name": "I see the results page",
+            "match": {
+              "location": "test/step_definitions/locator.js:108"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5031000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 12000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "protractor-locators;10-isdisplayed,-ispresent-functions",
+        "keyword": "Scenario",
+        "line": 65,
+        "name": "10 isDisplayed, isPresent functions",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 66,
+            "name": "the user navigates to \"https://www.amazon.com\"",
+            "match": {
+              "location": "test/step_definitions/browser.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7195000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 67,
+            "name": "the user verifies the logo is displayed",
+            "match": {
+              "location": "test/step_definitions/locator.js:117"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13785000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 68,
+            "name": "the user verifies \"Best Sellers\" link is present",
+            "match": {
+              "location": "test/step_definitions/locator.js:128"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 173000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "protractor-locators;11-isenabled,-isselected-functions",
+        "keyword": "Scenario",
+        "line": 70,
+        "name": "11 isEnabled, isSelected functions",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 71,
+            "name": "the user navigates to \"https://www.overleaf.com\"",
+            "match": {
+              "location": "test/step_definitions/browser.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2496000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 72,
+            "name": "the user verifies checkbox for emails is enabled",
+            "match": {
+              "location": "test/step_definitions/locator.js:138"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 161000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 73,
+            "name": "the user verifies checkbox is not selected",
+            "match": {
+              "location": "test/step_definitions/locator.js:148"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2094000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 74,
+            "name": "the user clicks on the checkbox",
+            "match": {
+              "location": "test/step_definitions/locator.js:165"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 169000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 75,
+            "name": "the user verifies if the checkbox is selected",
+            "match": {
+              "location": "test/step_definitions/locator.js:169"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2066000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 12000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "protractor-locators",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Protractor Locators",
+    "tags": [],
+    "uri": "test/features/locator.feature",
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "91.0.4472.77"
+      },
+      "device": "",
+      "platform": {
+        "name": "",
+        "version": ""
+      }
+    }
+  }
+]
